@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+
+  color:blue;
+  background: rgb(244, 216, 187);
+  letter-spacing: 8px;
+  font-family: 'Nunito', sans-serif;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+
+  color:rgb(45, 45, 238);
+  font-size: 32;
+  font-family: 'Nunito', sans-serif;
+}
+
+ p {
+  text-align: center;
+
+  color:rgb(6, 6, 13);
+  font-size: 20;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 2px;
+ }
+
+ .logo {
+   width: 40px;
+   color:rgb(41, 26, 147);
+   letter-spacing: 10px;
+
+ }
+
+ #logo :hover {
+  width: 60px;
+  color:red;
+  letter-spacing: 10px;
+}
+
+li {
+  width: 40px;
+  color:rgb(41, 26, 147);
+  letter-spacing: 10px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 15%;
+}
+
+button {
+  color:rgb(42, 120, 176);
+  text-decoration: none;
+}
+button :hover {
+  text-decoration: underline;
+  color:rgb(181, 16, 51, 0.8);
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+
+  padding: 30px;
+  border: 1px solid lightgrey;
+
+
+}
+.card{
+  text-align: center;
+
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
